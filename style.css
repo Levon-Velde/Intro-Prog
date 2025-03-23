@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background-image: linear-gradient(92deg, rgb(24, 134, 251), rgb(192, 152, 255));
+    height: 100vh;
+}
+
+button {
+    padding: 2em;
+}
+
+div {
+    padding-top: 1em;
+}
+
+body > div:first-of-type {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1em;
+}
+
+div:first-of-type img {
+    width: 80px;
+}
+
+div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div:nth-of-type(2) p {
+    display: none;
+    margin-top: 130px;
+    margin-bottom: 150px;
+}
+
+div:nth-of-type(2) canvas {
+    width: fit-content;
+    margin: auto;
+}
+
+div:nth-of-type(2) div:first-of-type {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    justify-content: center;
+}
+
+div:nth-of-type(4) {
+    padding-bottom: 3em;
+}
+
+.menuTonen {
+    display: flex !important; 
+}
+
+body > div:last-of-type {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: lightgray;
+    height: 1300px;
+    width: 200px;
+    gap: 1em;
+    display: none;
+    flex-direction: column;
+    padding-left: 1em;
+    overflow: hidden;
+}
+
+body > div:last-of-type button {
+    width: 10em;
+    border-radius: 10px;
+    background-color: white;
+}
+
+h1,h2,h3 {
+    font-size: 100px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 70px;
+    font-weight: 100;
+    word-spacing: 0px;
+}
+
+.verbergen {
+    display: none;
+}
+
+.tonen {
+    display: unset !important;
+}
