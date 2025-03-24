@@ -133,10 +133,10 @@ function drawHand(ctx, pos, length, width) {
 let startKnop = document.getElementById('start');
 let stopKnop = document.getElementById('stop');
 
-let uren = 0o0;
-let minuten = 0o0;
-let secondes = 0o0;
-let milliSec = 0o0;
+let uren = 0;
+let minuten = 0;
+let secondes = 0;
+let milliSec = 0;
 
 startKnop.addEventListener('click', function () {
     timer = true;
